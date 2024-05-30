@@ -40,7 +40,7 @@ public class Program
         //     // IdRole это Id роли из таблицы Role
         //     IdRole = 1
         // };
-        // Добавляем нового пользователя, сохраняем изменения
+        // // Добавляем нового пользователя, сохраняем изменения
         // db.Users.Add(newUser);
         // db.SaveChanges();
 
@@ -48,6 +48,12 @@ public class Program
         // var testUser = db.Users.Include(r => r.IdRoleNavigation).FirstOrDefault(n => n.Login == "TEST USER");
         // Console.WriteLine($"Login: {testUser.Login} - Password: {testUser.Password} - Phone: {testUser.PhoneNumber} - Role: {testUser.IdRoleNavigation.Name}");
 
+        // Находим и изменяем информацию у пользователя
+        // var updateUser = db.Users.Include(r => r.IdRoleNavigation).FirstOrDefault(n => n.Login == "TEST USER");
+        // updateUser.Login = "UPDATE";
+        // db.SaveChanges();
+        // Console.WriteLine($"Login: {updateUser.Login} - Password: {updateUser.Password} - Phone: {updateUser.PhoneNumber} - Role: {updateUser.IdRoleNavigation.Name}");
+        
         // Удаляем созданного пользоватея
         // db.Users.Remove(testUser);
         // db.SaveChanges();

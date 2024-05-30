@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScaffoldTestConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4dd4fa0ca9159598224be58fbc0ad3aebfee095a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScaffoldTestConsoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScaffoldTestConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
